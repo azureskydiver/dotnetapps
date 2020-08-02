@@ -1,0 +1,13 @@
+{
+    "name": "dotnetapps",
+    "description": "dotNet Applications for Vesta",
+    "version": "0.0.1",
+    "min-vesta": "0.9.8",
+    "repository": "https://github.com/azureskydiver/dotnetapps",
+    "homepage": "https://github.com/azureskydiver/dotnetapps#readme",
+    "author": {
+      "name": "Anthony Francisco",
+      "email": "code.herder@recombulator.net",
+      "homepage": "https://github.com/azureskydiver/"
+    }
+  }
