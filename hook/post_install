@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sdkPackageName="dotnet-sdk-3.1"
 packageName="aspnetcore-runtime-3.1"
 
 # Detect OS
@@ -14,7 +15,8 @@ case $(head -n1 /etc/issue | cut -f 1 -d ' ') in
         sudo apt-get update
         sudo apt-get install -y apt-transport-https
         sudo apt-get update
-        sudo apt-get install -y $packageName        
+        sudo apt-get install -y $sdkPackageName
+        sudo apt-get install -y $packageName
         ;;
 
     Ubuntu)
@@ -23,7 +25,13 @@ case $(head -n1 /etc/issue | cut -f 1 -d ' ') in
         sudo apt-get update
         sudo apt-get install -y apt-transport-https
         sudo apt-get update
+        sudo apt-get install -y $sdkPackageName
         sudo apt-get install -y $packageName
+        ;;
+
+    CentOS)
+        sudo dnf install $sdkPackageName
+        sudo dnf install $packageName
         ;;
 
     *)

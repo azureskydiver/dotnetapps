@@ -13,4 +13,5 @@ A Vesta plugin to simplify installing and managing ASP.NET Core applications wit
 2. In the Vesta panel access "Plugins" menu and add the plugin by url: `https://github.com/azureskydiver/dotnetapps`
 
 ## Usage
-Visit the the '/dotnetapps' site on your Vesta Control panel. Ex. `http://example.com:8083/dotnetapps`
+- Click on **.Net Apps** on the Vesta Control panel tool bar; OR
+- Visit the the '/plugin/dna' site on your Vesta Control panel. Ex. `http://example.com:8083/plugin/dna/`
